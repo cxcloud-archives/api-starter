@@ -1,6 +1,0 @@
-{
-  "rules": [
-    { "pathname": "/api/**", "dest": "api.cxcloud.xyz" },
-    { "dest": "frontend.cxcloud.xyz" }
-  ]
-}

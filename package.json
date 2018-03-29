@@ -7,7 +7,7 @@
     "build": "tsc && npm run swagger",
     "start": "ts-node src/index.ts | bunyan",
     "start:production": "node dist/index.js",
-    "dev": "nodemon",
+    "dev": "npm run swagger && nodemon",
     "swagger": "swaggerGen -c ./swagger.config.json",
     "format": "prettier --write 'src/**/*.ts'",
     "precommit": "lint-staged"
@@ -29,9 +29,6 @@
   },
   "homepage": "https://github.com/cxcloud/api-accelerator#readme",
   "dependencies": {
-    "@buttercup/generator": "^1.0.1",
-    "@cxcloud/core": "^1.10.2",
-    "@cxcloud/ct-types": "^0.3.1",
     "body-parser": "^1.18.2",
     "bunyan": "^1.8.12",
     "config": "^1.27.0",
@@ -40,7 +37,6 @@
     "express-api-error-handler": "^1.1.0"
   },
   "devDependencies": {
-    "@types/algoliasearch": "^3.24.9",
     "@types/body-parser": "^1.16.5",
     "@types/bunyan": "^1.8.3",
     "@types/config": "0.0.33",

@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ignore": ["dist/*"],
+  "ext": "js ts json",
+  "exec": "ts-node ./src/index.ts | bunyan"
+}

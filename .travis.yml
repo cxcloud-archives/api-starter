@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - 8
+addons:
+  apt:
+    packages: &default_packages
+      - libssl-dev
+script:
+  - npm run build
+#install:
+#  - npm install --package-lock-only
+before_deploy:
+  - scripts/install-git-crypt.sh
+deploy:
+  provider: script
+  script: scripts/deploy.sh
+  on:
+    branch: master

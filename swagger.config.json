@@ -1,0 +1,19 @@
+{
+  "swagger": {
+    "basePath": "/api/v1",
+    "outputDirectory": "./dist",
+    "entryFile": "./src/index.ts",
+    "name": "CXCloud Facade Demo API",
+    "description": "A simple API that implements the CXCloud Facade module",
+    "license": "ISC",
+    "produces": ["application/json"],
+    "version": "0.0.1",
+    "securityDefinitions": {
+      "token": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+  }
+  }
+}

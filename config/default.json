@@ -1,0 +1,14 @@
+{
+  "port": 4003,
+  "store": {
+    "defaultCurrency": "EUR",
+    "supportedCurrencies": ["EUR", "USD", "GBP"]
+  },
+  "debug": {
+    "logLevel": "debug"
+  },
+  "commerceTools": {
+    "authHost": "https://auth.sphere.io",
+    "apiHost": "https://api.sphere.io"
+  }
+}

@@ -7,3 +7,4 @@ export * from './shipping-controller';
 export * from './content-controller';
 export * from './admin-controller';
 export * from './search-controller';
+export * from './helloworld-controller';

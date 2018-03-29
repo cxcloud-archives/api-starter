@@ -1,7 +1,5 @@
 # CXCloud API Accelerator
 
-[![Build Status](https://travis-ci.org/cxcloud/api-accelerator.svg?branch=master)](https://travis-ci.org/cxcloud/api-accelerator)
-
 This repository uses [CXCloud Core Services](https://github.com/cxcloud/core-services) module and shows off it's capabilities. You can use this as a starting point for your CXCloud projects.
 
 ## Configuration

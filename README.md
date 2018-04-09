@@ -6,15 +6,7 @@ This repository uses [CXCloud Core Services](https://github.com/cxcloud/core-ser
 
 This project uses [`node-config`](lorenwest/node-config) for configuration and [`git-crypt`](AGWA/git-crypt) for encryption of configuration files.
 
-To see the list of available configuration keys, see [CXCloud Core Services](https://github.com/cxcloud/core-services).
-
-After cloning the repo, follow [these instructions](https://github.com/cxcloud/api-accelerator/wiki/GPG-&-Git-Crypt-Installation) to install the required tools and then:
-
-```sh
-$ git-crypt unlock
-```
-
-Please contact the team to have your public gpg key to the project so you can unlock the configuration files.
+To setup `git-crypt` [follow this detailed guide](https://github.com/lorenwest/node-config/wiki/Securing-Production-Config-Files).
 
 ## Deploy
 
